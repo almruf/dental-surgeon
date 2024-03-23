@@ -14,8 +14,7 @@ const Review = ({ review }) => {
                     <h3 className='text-xl text-primary'>{name}</h3>
                     <p>{location}</p>
                 </div>
-                </div>
-                
+                </div> 
             </div>
         </section>
     );

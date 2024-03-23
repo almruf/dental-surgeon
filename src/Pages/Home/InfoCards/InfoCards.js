@@ -8,7 +8,7 @@ const InfoCards = () => {
     {
         id: 1,
         name: 'Opening Hours',
-        description: 'Opening 9.00 am to 5.00 everyday',
+        description: `Opening 9.00 am to 5.00` ,
         icon: clock,
         bgClass: 'text-white bg-gradient-to-r from-primary to-secondary',
     },

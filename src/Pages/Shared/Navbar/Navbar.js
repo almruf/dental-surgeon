@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     const MenuItems = <>
         <li><Link to='/'>Home</Link></li>
-        <li><Link to='/'>contact us</Link></li>
-        <li><Link to='/'>appointment</Link></li>
-        <li><Link to='/'>review</Link></li>
+        <li><Link to='/contact'>contact us</Link></li>
+        <li><Link to='/appointment'>appointment</Link></li>
+        <li><Link to='Testimonial'>review</Link></li>
 
     </>
     return (
