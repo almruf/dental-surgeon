@@ -17,13 +17,13 @@ const Services = () => {
             icon: fluorideImg,
         },
         {
-            id: 1,
+            id: 2,
             name: 'Fluter Treatment',
             description: 'fluoride treatment is a popular  your teeth.',
             icon: caving,
         },
         {
-            id: 1,
+            id: 3,
             name: 'Fluter Treatment',
             description: 'fluoride treatment is  clean your teeth.',
             icon: whiteTeeth,

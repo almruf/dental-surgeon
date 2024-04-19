@@ -26,8 +26,8 @@ const Footer = () => {
                     <Link className="link link-hover">Cookie  ♂☺☺☺ policy</Link>
                 </nav>
             </div>
-            <div className='text-center'>
-                <p>Copyright © 2024 - All right reserved by ABDUR RAHMAN</p>
+            <div className='text-center my-5'>
+                <p>Copyright © 2024 - All right reserved <br /> by <br /> ABDUR RAHMAN</p>
             </div>
         </footer>
     );

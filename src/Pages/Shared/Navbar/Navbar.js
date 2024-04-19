@@ -7,10 +7,8 @@ const Navbar = () => {
         <li><Link to='/contact'>contact us</Link></li>
         <li><Link to='/appointment'>appointment</Link></li>
         <li><Link to='Testimonial'>review</Link></li>
-
     </>
     return (
-
         <div className="navbar bg-base-100">
             <div className="navbar-start">
                 <div className="dropdown">
@@ -34,5 +32,4 @@ const Navbar = () => {
         </div>
     );
 };
-
 export default Navbar;
