@@ -6,6 +6,7 @@ import Appointment from "../../Pages/Appointment/Appointment/Appointment";
 import Contact from "../../Pages/Contact/Contact";
 import Testimonial from "../../Pages/Home/Testimonial/Testimonial";
 import SignUp from "../../Pages/Home/SignUp/SignUp";
+import Dashboard from "../../Pages/Dashboard/Dashboard";
 
 const router = createBrowserRouter([
     {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
                 element: <Testimonial></Testimonial>
             }
         ]
+    },
+    {
+        path: '/dashboard',
+        element:<Dashboard></Dashboard>
     }
 ])
 export default router;
